@@ -1,0 +1,151 @@
+Metagenomic Sequencing & Microbiome Analysis Pipeline
+
+This repository contains a fully automated workflow for long-read metagenomic analysis using Oxford Nanopore sequencing data. The pipeline covers basecalling, QC, assembly, taxonomic profiling, functional annotation, genome binning, and host contamination filtering.
+
+📌 Overview
+
+This pipeline processes raw Nanopore POD5 data into:
+
+High-quality microbial assemblies
+Taxonomic profiles (reads + contigs)
+Functional gene annotations
+Metagenome-assembled genomes (MAGs)
+Host vs microbial separation
+Adaptive sequencing target sets
+
+
+⚙️ Workflow Summary
+Basecalling & Demultiplexing (Dorado)
+Quality Control & Filtering (NanoPlot, NanoFilt)
+Read-level Taxonomy (Kaiju)
+Metagenome Assembly (Flye)
+Contig-level Taxonomy (Kraken2)
+Functional Annotation (Prokka, eggNOG-mapper)
+Read Mapping & Coverage Estimation (Bowtie2, Samtools)
+Genome Binning (MetaBAT2, MaxBin2, MetaCoAG)
+Bin Refinement (DAS Tool)
+Bin Quality Assessment (CheckM)
+Taxonomic Classification (GTDB-Tk)
+Host Contamination Filtering (BLAST + NCBI nt)
+Adaptive Sequencing Target Generation
+
+
+📁 Directory Structure
+1_pod5/                  # Raw POD5 files
+2_demultiplex/          # Basecalled FASTQ files
+3_nanofilt/             # Filtered reads
+4_kaiju_reads/          # Read-level taxonomy
+5_assembly/             # Flye assembly output
+6_kraken/               # Contig taxonomy (Kraken2)
+7_prokka/               # Gene annotation
+8_eggnog/               # Functional annotation
+9_binning/              # BAM + depth files
+10_dastool/             # Refined MAGs
+11_checkm/              # Genome quality stats
+12_gtdbtk/              # Taxonomic classification
+13_host_check/          # BLAST host filtering
+14_contig_split/        # Host vs microbial contigs
+15_adaptive_targets/    # Adaptive sequencing references
+
+
+🧪 Software Requirements
+
+This pipeline is designed for HPC environments and relies on module systems.
+
+Required modules (versions depend on your system):
+Dorado (Nanopore basecalling)
+Flye (metagenome assembly)
+Kraken2 (taxonomic classification)
+Kaiju (read classification)
+NanoPlot / NanoFilt (QC)
+Prokka (gene annotation)
+eggNOG-mapper (functional annotation)
+Bowtie2 / Samtools (mapping)
+MetaBAT2 / MaxBin2 / MetaCoAG (binning)
+DAS Tool (bin refinement)
+CheckM (quality assessment)
+GTDB-Tk (taxonomy)
+BLAST + NCBI edirect (host detection)
+seqtk (sequence extraction)
+
+
+🧬 Input Data
+Nanopore POD5 sequencing files
+Optional: host reference genome (mosquito_genome.fa or similar)
+
+
+🚀 How to Run
+Run the full pipeline:
+bash pipeline.sh
+sbatch pipeline.sh
+
+Make sure to edit the configuration section:
+RAW_DIR="1_pod5"
+THREADS=30
+KAIJU_DB="$HOME/kaijudb"
+KRAKEN_DB="$HOME/standard_database"
+GTDBTK_DATA_PATH="$HOME/gtdb_database"
+
+🧠 Key Outputs
+🧾 Taxonomy
+Kaiju (reads)
+Kraken2 (contigs)
+GTDB-Tk (MAGs)
+
+🧬 Assembly
+Flye metagenome assembly (assembly.fasta)
+
+🧫 Functional annotation
+Prokka gene calls
+eggNOG functional categories
+
+🧱 Genome bins (MAGs)
+MetaBAT2 bins
+MaxBin2 bins
+MetaCoAG bins
+DAS Tool refined bins
+
+🧪 Quality
+CheckM completeness & contamination
+
+🧍 Host filtering
+BLAST-based mosquito vs microbial separation
+
+🔬 Adaptive Sequencing Module
+The pipeline generates:
+Depletion targets (Host genome + host contigs)
+Enrichment targets (Microbial contigs only)
+
+These are used for ONT adaptive sequencing (e.g., read rejection/enrichment).
+
+📊 Example Applications
+Mosquito microbiome profiling
+Environmental metagenomics
+Host-associated microbial assembly
+Adaptive sequencing design
+MAG recovery and annotation
+
+⚠️ Notes
+Designed for HPC clusters (SLURM-compatible environments)
+Some tools require pre-built databases (Kraken2, GTDB, Kaiju)
+BLAST remote mode may be slow for large datasets
+Ensure sufficient storage for intermediate BAM files
+
+
+📜 Citation
+If you use this pipeline, please cite:
+Flye
+Kraken2
+GTDB-Tk
+MetaBAT2
+DAS Tool
+eggNOG-mapper
+Prokka
+This work is currently under submission. Please refer to my Google Scholar profile for related and updated publications:
+https://scholar.google.com/citations?user=xUXH4P0AAAAJ&hl=en
+
+👤 Author
+Jing Yuan, Ph.D.
+Microbial Ecology
+Microbiome / Metagenomics Research
+
