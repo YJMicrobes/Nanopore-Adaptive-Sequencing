@@ -1,9 +1,8 @@
-Metagenomic Sequencing & Microbiome Analysis Pipeline
+Nanopore Adaptive Sequencing of Mosquito Microbiome (Metagenome) Analysis Pipeline
 
-This repository contains a fully automated workflow for long-read metagenomic analysis using Oxford Nanopore sequencing data. The pipeline covers basecalling, QC, assembly, taxonomic profiling, functional annotation, genome binning, and host contamination filtering.
+This repository contains a workflow for long-read metagenomic analysis using Oxford Nanopore sequencing data. The pipeline covers basecalling, QC, assembly, taxonomic profiling, functional annotation, genome binning, and host contamination filtering.
 
 📌 Overview
-
 This pipeline processes raw Nanopore POD5 data into:
 
 High-quality microbial assemblies
