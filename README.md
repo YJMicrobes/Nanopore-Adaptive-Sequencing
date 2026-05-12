@@ -1,4 +1,4 @@
-# 🧬 Nanopore Microbiome & Comparative Genomics Toolkit
+# 🧬 Nanopore Adaptive Sequencing Pipelines
 
 A modular suite of Oxford Nanopore long-read bioinformatics pipelines for:
 
@@ -18,7 +18,7 @@ This repository contains three main pipelines:
 - 🔬 Comparative genomics	MAG vs isolate comparison: compare_genomes_MAGs_Isolates.sh
 
 ------------------
-## 🦟 1. Mosquito Microbiome Pipeline
+## 🦟 1. Nanopore Adaptive Microbiome Pipeline
 ### 🧭 Purpose
 Metagenomic analysis of Nanopore sequencing data from mosquito-associated microbiomes.
 
