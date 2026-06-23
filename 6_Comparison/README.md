@@ -1,4 +1,6 @@
-# 6_Comparison — Comparative Genomics & Genome Alignment Analysis
+# 6_Comparison 
+
+## Comparative Genomics & Genome Alignment Analysis
 
 This directory contains comparative genomics analyses of MAGs and isolate genomes, including genome alignment, synteny visualization, gene presence/absence, functional comparison, and ANI-based similarity assessment.
 
