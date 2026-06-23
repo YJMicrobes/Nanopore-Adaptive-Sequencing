@@ -1,4 +1,6 @@
-# 5_Isolates — Isolate-Based Microbial Reintroduction Experiment
+# 5_Isolates 
+
+## Isolate-Based Microbial Reintroduction Experiment
 
 This directory contains analyses related to microbial isolate experiments, including isolate abundance tracking, taxonomic annotation, and experimental validation of microbial reintroduction effects in mosquito culture systems.
 
