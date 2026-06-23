@@ -1,4 +1,6 @@
-# 1_pipelines — Nanopore Metagenomics & Genome-Resolved Analysis Pipeline
+# 1_pipelines
+
+## Nanopore Metagenomics & Genome-Resolved Analysis Pipeline
 
 This directory contains a modular, stepwise workflow for processing Oxford Nanopore sequencing data, from raw reads to genome-resolved analyses, including assembly, binning, quality control, taxonomic classification, genome comparison, and pangenome analysis.
 
@@ -110,23 +112,24 @@ Constructs and analyzes pangenomes across multiple genomes or MAGs.
 
 ## Output Structure (Typical)
 
-results/
-├── raw_reads/
-├── basecalled/
-├── demultiplexed/
-├── qc_reports/
-├── filtered_reads/
-├── assemblies/
-├── bins/
-│ ├── maxbin/
-│ ├── metabat/
-│ ├── metacoag/
-│ └── dastool/
-├── checkm/
-├── gtdbtk/
-├── genome_comparison/
+```
+results/ \
+├── raw_reads/ \
+├── basecalled/ \
+├── demultiplexed/ \
+├── qc_reports/ \
+├── filtered_reads/ \
+├── assemblies/ \
+├── bins/ \
+│ ├── maxbin/ \
+│ ├── metabat/ \
+│ ├── metacoag/ \
+│ └── dastool/ \
+├── checkm/ \
+├── gtdbtk/ \
+├── genome_comparison/ \
 └── pangenome/
-
+```
 
 ---
 
