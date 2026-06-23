@@ -1,4 +1,6 @@
-# 4_MAGs — Metagenome-Assembled Genomes (MAGs) Analysis
+# 4_MAGs 
+
+## Metagenome-Assembled Genomes (MAGs) Analysis
 
 This directory contains downstream analyses of metagenome-assembled genomes (MAGs), including quality summaries, read recruitment, ANI comparisons, and phylogenetic placement.
 
