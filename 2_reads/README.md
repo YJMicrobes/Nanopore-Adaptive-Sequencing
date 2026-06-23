@@ -1,4 +1,6 @@
-# 2_reads — Read-Level Microbiome Analysis Summary
+# 2_reads 
+
+## Read-Level Microbiome Analysis Summary
 
 This directory contains summary-level outputs from read-based metagenomic analyses, organized in a single Excel file.
 
