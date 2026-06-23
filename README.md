@@ -1,4 +1,4 @@
-# Nanopore Adaptive Sequencing of the Mosquito Microbiome
+# Nanopore Adaptive Sequencing of Mosquito Microbiome
 
 -----
 This repository contains bioinformatic pipelines and analysis workflows.
@@ -52,7 +52,17 @@ step14_genome_comparison.sh
 step15_Pangenome_comparison.sh
 ```
 
+## Citation
+
+This work is currently in preparation for publication. A formal citation will be provided upon manuscript release. \ 
+If you use this pipeline, please acknowledge this repository in your Methods section.
+
+> Yuan Jing et al. Nanopore adaptive sequencing of mosquito microbiome. (In preparation)
+
+
+
 \
 @_@ \
 Please adapt file paths, database locations, and computational resources according to your local environment before running the pipeline.
 For questions or collaboration regarding this workflow, please open an issue in this repository.
+Heavy intermediate files are removed. If you have any questions, please contact us.
