@@ -1,4 +1,6 @@
-# 3_contigs — Contig-Level Assembly Annotation & Taxonomic Profiling
+# 3_contigs 
+
+## Contig-Level Assembly Annotation & Taxonomic Profiling
 
 This directory contains contigs-level downstream analyses from metagenome assembly, including functional annotation (EggNOG), taxonomic classification (Kraken2), and summary statistics across multiple taxonomic resolutions.
 
