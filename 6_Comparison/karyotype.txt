@@ -1,0 +1,4 @@
+chr - g1 Comamonas_g2_b16 0 6329797 blue
+chr - g2 Comamonas_h3_b2 0 5483125 red
+chr - g3 Comamonas_t5_g20 0 6422518 green
+chr - g4 Comamonas_mag7 0 6526351 orange

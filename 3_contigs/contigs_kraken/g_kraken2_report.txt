@@ -1,0 +1,83 @@
+ 32.93	137	137	U	0	unclassified
+ 67.07	279	0	R	1	root
+ 66.35	276	1	R1	131567	  cellular organisms
+ 66.11	275	1	R2	2	    Bacteria
+ 63.46	264	2	K	3379134	      Pseudomonadati
+ 58.65	244	2	P	1224	        Pseudomonadota
+ 27.88	116	0	C	28216	          Betaproteobacteria
+ 27.88	116	0	O	80840	            Burkholderiales
+ 27.88	116	4	F	80864	              Comamonadaceae
+ 26.92	112	104	G	80865	                Delftia
+  1.92	8	8	S	80866	                  Delftia acidovorans
+ 17.07	71	0	C	1236	          Gammaproteobacteria
+ 16.11	67	0	O	135614	            Lysobacterales
+ 16.11	67	3	F	32033	              Lysobacteraceae
+ 15.38	64	60	G	40323	                Stenotrophomonas
+  0.96	4	4	S	216778	                  Stenotrophomonas rhizophila
+  0.96	4	0	O	72274	            Pseudomonadales
+  0.96	4	1	F	135621	              Pseudomonadaceae
+  0.72	3	3	G	286	                Pseudomonas
+ 13.22	55	2	C	28211	          Alphaproteobacteria
+  8.89	37	0	O	204458	            Caulobacterales
+  8.89	37	2	F	76892	              Caulobacteraceae
+  8.41	35	33	G	41275	                Brevundimonas
+  0.48	2	2	S	2774190	                  Brevundimonas goettingensis
+  3.61	15	1	O	356	            Hyphomicrobiales
+  3.12	13	1	F	82115	              Rhizobiaceae
+  2.88	12	4	G	323620	                Shinella
+  1.44	6	6	S	352475	                  Shinella zoogloeoides
+  0.48	2	1	G1	2643062	                  unclassified Shinella
+  0.24	1	1	S	2715959	                    Shinella sp. PSBB067
+  0.24	1	0	F	2831100	              Boseaceae
+  0.24	1	0	G	85413	                Bosea
+  0.24	1	1	G1	2653178	                  unclassified Bosea (in: a-proteobacteria)
+  0.24	1	0	O	204457	            Sphingomonadales
+  0.24	1	1	F	41297	              Sphingomonadaceae
+  4.33	18	0	K1	1783270	        FCB group
+  4.33	18	0	K2	68336	          Bacteroidota/Chlorobiota group
+  4.33	18	0	P	976	            Bacteroidota
+  2.88	12	0	C	117743	              Flavobacteriia
+  2.88	12	0	O	200644	                Flavobacteriales
+  2.88	12	0	F	49546	                  Flavobacteriaceae
+  2.88	12	8	G	237	                    Flavobacterium
+  0.96	4	4	S	2183896	                      Flavobacterium crocinum
+  1.44	6	0	C	117747	              Sphingobacteriia
+  1.44	6	0	O	200666	                Sphingobacteriales
+  1.44	6	0	F	84566	                  Sphingobacteriaceae
+  1.20	5	2	G	84567	                    Pedobacter
+  0.72	3	0	G1	2628915	                      unclassified Pedobacter
+  0.72	3	3	S	2482728	                        Pedobacter sp. G11
+  0.24	1	1	G	423349	                    Mucilaginibacter
+  2.40	10	1	K	1783272	      Bacillati
+  1.20	5	0	P	201174	        Actinomycetota
+  1.20	5	2	C	1760	          Actinomycetes
+  0.72	3	2	O	85006	            Micrococcales
+  0.24	1	0	F	85023	              Microbacteriaceae
+  0.24	1	1	G	33882	                Microbacterium
+  0.72	3	0	K1	1798711	        Cyanobacteriota/Melainabacteria group
+  0.72	3	0	P	1117	          Cyanobacteriota
+  0.72	3	0	C	3028117	            Cyanophyceae
+  0.72	3	0	C1	1301283	              Oscillatoriophycideae
+  0.72	3	0	O	1150	                Oscillatoriales
+  0.72	3	0	F	1892254	                  Oscillatoriaceae
+  0.72	3	0	G	1158	                    Oscillatoria
+  0.72	3	0	S	482564	                      Oscillatoria nigro-viridis
+  0.72	3	3	S1	179408	                        Oscillatoria nigro-viridis PCC 7112
+  0.24	1	1	P	1239	        Bacillota
+  0.72	3	0	R1	10239	  Viruses
+  0.48	2	0	R2	2731341	    Duplodnaviria
+  0.48	2	0	K	2731360	      Heunggongvirae
+  0.48	2	0	P	2731618	        Uroviricota
+  0.48	2	0	C	2731619	          Caudoviricetes
+  0.48	2	0	F	2560065	            Herelleviridae
+  0.48	2	0	G	2732970	              Harbinvirus
+  0.48	2	0	S	2734052	                Harbinvirus semele
+  0.48	2	2	S1	2079433	                  Lactobacillus phage Semele
+  0.24	1	0	R2	2732004	    Varidnaviria
+  0.24	1	0	K	2732005	      Bamfordvirae
+  0.24	1	0	P	2732007	        Nucleocytoviricota
+  0.24	1	0	C	2732525	          Pokkesviricetes
+  0.24	1	0	O	2732526	            Asfuvirales
+  0.24	1	0	F	137992	              Asfarviridae
+  0.24	1	0	G	39743	                Asfivirus
+  0.24	1	1	S	10497	                  African swine fever virus

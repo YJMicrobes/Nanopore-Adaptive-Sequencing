@@ -1,0 +1,116 @@
+ 56.57	327	327	U	0	unclassified
+ 43.43	251	1	R	1	root
+ 42.56	246	1	R1	131567	  cellular organisms
+ 42.04	243	7	R2	2	    Bacteria
+ 37.54	217	0	K	3379134	      Pseudomonadati
+ 37.20	215	11	P	1224	        Pseudomonadota
+ 25.78	149	0	C	1236	          Gammaproteobacteria
+ 25.26	146	1	O	91347	            Enterobacterales
+ 25.09	145	3	F	1903411	              Yersiniaceae
+ 24.39	141	2	G	613	                Serratia
+ 23.88	138	0	G1	2647522	                  unclassified Serratia (in: enterobacteria)
+ 23.88	138	138	S	2986763	                    Serratia sp. UGAL515B_01
+  0.17	1	1	S	1737515	                  Serratia aquatilis
+  0.17	1	0	G	629	                Yersinia
+  0.17	1	0	S	630	                  Yersinia enterocolitica
+  0.17	1	0	S1	34053	                    Yersinia enterocolitica (type O:5)
+  0.17	1	1	S2	1262462	                      Yersinia enterocolitica (type O:5) str. YE53/03
+  0.52	3	0	O	135623	            Vibrionales
+  0.52	3	0	F	641	              Vibrionaceae
+  0.52	3	0	G	662	                Vibrio
+  0.35	2	2	S	2662262	                  Vibrio algicola
+  0.17	1	1	S	446374	                  Vibrio artabrorum
+  9.34	54	4	C	28216	          Betaproteobacteria
+  8.65	50	14	O	80840	            Burkholderiales
+  6.23	36	12	F	80864	              Comamonadaceae
+  3.46	20	10	G	283	                Comamonas
+  1.38	8	8	S	285	                  Comamonas testosteroni
+  0.35	2	2	S	363952	                  Comamonas thiooxydans
+  0.52	3	3	G	80865	                Delftia
+  0.17	1	0	G	12916	                Acidovorax
+  0.17	1	1	G1	2684926	                  unclassified Acidovorax
+  0.17	1	1	C	28211	          Alphaproteobacteria
+  0.17	1	0	P	29547	        Campylobacterota
+  0.17	1	0	C	3031852	          Epsilonproteobacteria
+  0.17	1	0	O	213849	            Campylobacterales
+  0.17	1	0	F	72294	              Campylobacteraceae
+  0.17	1	1	G	194	                Campylobacter
+  0.17	1	0	K1	1783270	        FCB group
+  0.17	1	0	K2	68336	          Bacteroidota/Chlorobiota group
+  0.17	1	0	P	976	            Bacteroidota
+  0.17	1	0	C	200643	              Bacteroidia
+  0.17	1	0	O	171549	                Bacteroidales
+  0.17	1	0	F	2005525	                  Tannerellaceae
+  0.17	1	1	G	375288	                    Parabacteroides
+  3.29	19	0	K	1783272	      Bacillati
+  2.60	15	5	P	1239	        Bacillota
+  1.04	6	1	C	186801	          Clostridia
+  0.87	5	0	O	186802	            Eubacteriales
+  0.87	5	2	F	31979	              Clostridiaceae
+  0.52	3	3	G	1485	                Clostridium
+  0.69	4	0	C	91061	          Bacilli
+  0.69	4	0	O	1385	            Bacillales
+  0.69	4	0	F	186817	              Bacillaceae
+  0.52	3	3	G	1386	                Bacillus
+  0.17	1	0	G	400634	                Lysinibacillus
+  0.17	1	1	S	1421	                  Lysinibacillus sphaericus
+  0.35	2	0	P	201174	        Actinomycetota
+  0.35	2	0	C	1760	          Actinomycetes
+  0.35	2	0	O	85006	            Micrococcales
+  0.35	2	2	F	85023	              Microbacteriaceae
+  0.35	2	0	K1	1798711	        Cyanobacteriota/Melainabacteria group
+  0.35	2	0	P	1117	          Cyanobacteriota
+  0.35	2	1	C	3028117	            Cyanophyceae
+  0.17	1	0	C1	1301283	              Oscillatoriophycideae
+  0.17	1	0	O	1150	                Oscillatoriales
+  0.17	1	0	F	1892254	                  Oscillatoriaceae
+  0.17	1	0	G	1158	                    Oscillatoria
+  0.17	1	0	S	482564	                      Oscillatoria nigro-viridis
+  0.17	1	1	S1	179408	                        Oscillatoria nigro-viridis PCC 7112
+  0.35	2	0	R2	2759	    Eukaryota
+  0.35	2	0	R3	33154	      Opisthokonta
+  0.35	2	0	K	33208	        Metazoa
+  0.35	2	0	K1	6072	          Eumetazoa
+  0.35	2	0	K2	33213	            Bilateria
+  0.35	2	0	K3	33511	              Deuterostomia
+  0.35	2	0	P	7711	                Chordata
+  0.35	2	0	P1	89593	                  Craniata
+  0.35	2	0	P2	7742	                    Vertebrata
+  0.35	2	0	P3	7776	                      Gnathostomata
+  0.35	2	0	P4	117570	                        Teleostomi
+  0.35	2	0	P5	117571	                          Euteleostomi
+  0.35	2	0	P6	8287	                            Sarcopterygii
+  0.35	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.35	2	0	P8	32523	                                Tetrapoda
+  0.35	2	0	P9	32524	                                  Amniota
+  0.35	2	0	C	40674	                                    Mammalia
+  0.35	2	0	C1	32525	                                      Theria
+  0.35	2	0	C2	9347	                                        Eutheria
+  0.35	2	0	C3	1437010	                                          Boreoeutheria
+  0.35	2	0	C4	314146	                                            Euarchontoglires
+  0.35	2	0	O	9443	                                              Primates
+  0.35	2	0	O1	376913	                                                Haplorrhini
+  0.35	2	0	O2	314293	                                                  Simiiformes
+  0.35	2	0	O3	9526	                                                    Catarrhini
+  0.35	2	0	O4	314295	                                                      Hominoidea
+  0.35	2	0	F	9604	                                                        Hominidae
+  0.35	2	0	F1	207598	                                                          Homininae
+  0.35	2	0	G	9605	                                                            Homo
+  0.35	2	2	S	9606	                                                              Homo sapiens
+  0.69	4	0	R1	10239	  Viruses
+  0.52	3	0	R2	2731341	    Duplodnaviria
+  0.52	3	0	K	2731360	      Heunggongvirae
+  0.52	3	0	P	2731618	        Uroviricota
+  0.52	3	0	C	2731619	          Caudoviricetes
+  0.52	3	0	F	2560065	            Herelleviridae
+  0.52	3	0	G	2732970	              Harbinvirus
+  0.52	3	0	S	2734052	                Harbinvirus semele
+  0.52	3	3	S1	2079433	                  Lactobacillus phage Semele
+  0.17	1	0	R2	2732004	    Varidnaviria
+  0.17	1	0	K	2732005	      Bamfordvirae
+  0.17	1	0	P	2732007	        Nucleocytoviricota
+  0.17	1	0	C	2732525	          Pokkesviricetes
+  0.17	1	0	O	2732526	            Asfuvirales
+  0.17	1	0	F	137992	              Asfarviridae
+  0.17	1	0	G	39743	                Asfivirus
+  0.17	1	1	S	10497	                  African swine fever virus
